@@ -1,0 +1,121 @@
+body {
+    background-color: rgba(146, 157, 158, 0.148);
+    color: #5f6266;
+
+    font-size: 15px;
+    font-weight: normal;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+}
+
+a:visited {
+    color: grey;
+}
+
+.avatar {
+    width: 350px;
+    border-radius: 50%;
+    box-shadow: 4px 3px 15px 3px;
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 800px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+
+.conteiner {
+    max-width: 75%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.info-text {
+    margin-bottom: 50px;
+}
+
+.bg-yellow {
+    background: #e9d1ef;
+}
+
+.bg-green{
+    background: #c5dee8;
+}
+
+.bg-black {
+    background: #cef1d8;
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+}
+
+.contact h3 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #86898f;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid gray;
+    color: black;
+    padding: 6px 0px 10px;
+    outline: none;
+    font-family:inherit;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+.row > .form-group {
+    width: 70%;
+    margin-right: 30%;
+}
+
+.btn {
+    background: black;
+    padding: 10px 15px;
+    color: white;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.7;
+}
+
